@@ -1,0 +1,23 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>FirstServlet</servlet-name>
+		<servlet-class>FirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FirstServlet</servlet-name>
+		<url-pattern>/FirstServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+			<servlet-name>form</servlet-name>
+			<servlet-class>FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>form</servlet-name>
+			<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+</web-app>

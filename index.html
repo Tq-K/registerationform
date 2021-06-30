@@ -1,0 +1,61 @@
+
+<html>
+		<head>
+				<title> Register form </title>
+		</head>
+<style>
+body{
+		display:flex;
+		justify-content:center;
+}
+form{
+		width: 500px;
+		height:500px;
+		margin:auto;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+		width: 100%;
+		font-size: 20px;
+		padding: 5px;
+}
+input[type="submit"],input[type="reset"]{
+		width: 100px;
+		padding: 8px;
+		cursor: pointer;
+		margin: 10px auto;
+}
+</style>
+
+		<body>
+				<form action="register" method="post">
+						<table>
+						<tr>
+								<td><label>Enter Name: </label></td>
+								<td><input type="text" name="user_name">
+						</tr>
+						<tr>
+								<td><label>Enter email: </label></td>
+								<td><input type="email" name="user_email">
+						</tr>
+						<tr>
+								<td><label>Enter password: </label></td>
+								<td><input type="password" name="user_password">
+						</tr>
+						<tr>
+								<td><label>Gender: </label></td>
+								<td><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female</td>
+								<tr>
+										<td style="text-align:right"><input type="checkbox" value="checked" name="condition"></td>
+										<td>I agree terms and conditions </td>
+								</tr>
+								<tr>
+										<td>
+								<input type="submit" value="submit">
+										</td>
+										<td><input type="reset" value="reset"></td>
+								</tr>
+						
+						</table>
+				</form>
+		</body>
+</html>
